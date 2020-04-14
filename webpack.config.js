@@ -2,7 +2,7 @@ module.exports = {
   entry: './src/js/index.js',
   mode: 'development',
   output: {
-    filename: 'land.js',
+    filename: 'index.js',
     path: "/demo/videostoreproj/land/static/land/js/",
   },
   module: {
