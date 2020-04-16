@@ -1,0 +1,13 @@
+.videos {
+    .card-body {
+        a.btn {
+            border-radius: 0;
+        }
+    }
+    .card-title {
+        a {
+            color: purple;
+            text-decoration: underline;
+        }
+    }
+}
