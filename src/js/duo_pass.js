@@ -13,6 +13,10 @@ class Password {
     get text() {
         return this._pwd.val(); 
     }
+
+    mark(color) {
+        this._pwd.css('color', color);
+    }
 }
 
 
@@ -46,6 +50,10 @@ export class DuoPass {
 
     mark(color) {
         console.log(`Mark color=${color}`);
+
+        [this._pass1, this._pass2].forEach(
+            p => p.mark(color)
+        );
     }
 }
 
