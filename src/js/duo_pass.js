@@ -1,2 +1,7 @@
 
 
+export class DuoPass {
+    constructor() {
+    }
+}
+
